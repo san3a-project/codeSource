@@ -1,6 +1,7 @@
 package com.example.code
 
 
+import android.content.Intent
 import android.os.Bundle
 
 import android.view.LayoutInflater
@@ -20,7 +21,10 @@ class SignIn : Fragment() {
     }
     override fun onActivityCreated(savedInstanceState: Bundle?) {
         super.onActivityCreated(savedInstanceState)
-
+        button.setOnClickListener {
+            val intent = Intent(activity!!,start::class.java)
+            startActivity(intent)
+        }
         textView8.setOnClickListener {
             view?.findNavController()?.navigate(R.id.action_signIn_to_signUp)
 

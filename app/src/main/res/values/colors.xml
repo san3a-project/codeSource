@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#008577</color>
-    <color name="colorPrimaryDark">#00574B</color>
-    <color name="colorAccent">#D81B60</color>
+    <color name="colorPrimary">#BB3F9D</color><color name="colorPrimaryDark">#00574B</color><color name="colorAccent">#D81B60</color>
+    <color name="bcColor">#FFFFFF</color><color name="surfaceColor">#FFFFFF</color>
     <color name="rose">#BB3F9D</color>
+    <color name="orange">#ffba52</color>
+
+
 </resources>

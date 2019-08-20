@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:showIn="navigation_view">
+
+        <item
+                android:id="@+id/nav_camera"
+                android:icon="@drawable/u92"
+                android:title="@string/sen3aProfile"/>
+        <item
+                android:id="@+id/nav_gallery"
+                android:icon="@drawable/u93"
+                android:title="@string/Inbox"/>
+        <item
+                android:id="@+id/nav_slideshow"
+                android:icon="@drawable/u94"
+                android:title="@string/YourListings"/>
+        <item
+                android:id="@+id/nav_newSen3a"
+                android:icon="@drawable/ic_add_circle_black_24dp"
+                android:title="@string/createSen3a"/>
+        <item
+                android:id="@+id/nav_saved"
+                android:icon="@drawable/u95"
+                android:title="@string/saved"/>
+        <item
+                android:id="@+id/nav_following"
+                android:icon="@drawable/u96"
+                android:title="@string/following"/>
+
+
+
+</menu>

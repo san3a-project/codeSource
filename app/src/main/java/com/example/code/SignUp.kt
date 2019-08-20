@@ -26,6 +26,10 @@ class SignUp : Fragment() {
 
 
         }
+        button3.setOnClickListener {
+            view?.findNavController()?.navigate(R.id.action_signUp_to_signIn)
+
+        }
 
     }
 

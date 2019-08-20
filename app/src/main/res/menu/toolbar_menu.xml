@@ -1,0 +1,23 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+            android:id="@+id/miSearch"
+            android:icon="@drawable/search"
+            app:showAsAction="ifRoom|withText"
+            android:title="Recherche">
+    </item>
+    <item
+            android:id="@+id/miNotif"
+            android:icon="@drawable/cloche"
+            app:showAsAction="ifRoom|withText"
+            android:title="Notification">
+    </item>
+
+    <item
+            android:id="@+id/miMessage"
+            android:icon="@drawable/messaging"
+            app:showAsAction="ifRoom|withText"
+            android:title="Message">
+    </item>
+
+</menu>
